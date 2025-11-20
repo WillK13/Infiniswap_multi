@@ -46,12 +46,7 @@
 #include "infiniswap.h"
 
 /* lookup_bdev patch: https://www.redhat.com/archives/dm-devel/2016-April/msg00372.html */
-#ifdef HAVE_LOOKUP_BDEV_PATCH
-#define LOOKUP_BDEV(x) lookup_bdev(x, 0)
-#else
-#define LOOKUP_BDEV(x) lookup_bdev(x)
-#endif
-
+#define LOOKUP_BDEV(x) lookup_bdev((x), 0)
 
 void IS_stackbd_end_io(struct bio *bio, int err)
 {

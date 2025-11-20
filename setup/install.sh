@@ -32,7 +32,7 @@ stackbd_name="stackbd"
 
 #name of physical backup disk
 #(BACKUP_DISK), default is "/dev/sda4"
-backup_disk="/dev/sda4"
+backup_disk="/dev/vdb"
 
 #number of queried server in looking for remote memory
 #(SERVER_SELECT_NUM), default is 1

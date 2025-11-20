@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/Infiniswap_multi/infiniswap_bd/infiniswap.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/Infiniswap_multi/infiniswap_bd/infiniswap.ko /home/ubuntu/Infiniswap_multi/infiniswap_bd/infiniswap.o /home/ubuntu/Infiniswap_multi/infiniswap_bd/infiniswap.mod.o

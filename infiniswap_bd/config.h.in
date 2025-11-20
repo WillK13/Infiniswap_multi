@@ -1,48 +1,47 @@
-/* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Have the kernel patch for lookup_bdev()
    https://www.redhat.com/archives/dm-devel/2016-April/msg00372.html */
-/* #undef HAVE_LOOKUP_BDEV_PATCH */
+#undef HAVE_LOOKUP_BDEV_PATCH
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "infiniswap@umich.edu"
+#undef PACKAGE_BUGREPORT
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "infiniswap block device"
+#undef PACKAGE_NAME
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "infiniswap block device 0.1"
+#undef PACKAGE_STRING
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "infiniswap-block-device"
+#undef PACKAGE_TARNAME
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://github.com/SymbioticLab/infiniswap"
+#undef PACKAGE_URL
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.1"
+#undef PACKAGE_VERSION
 
 /* the name of physical backup disk, default is "/dev/sda4" */
-#define USER_BACKUP_DISK "/dev/vdb"
+#undef USER_BACKUP_DISK
 
 /* the max page number in a single bio request, default is 32 */
-#define USER_BIO_PAGE_CAP 32
+#undef USER_BIO_PAGE_CAP
 
 /* the max page number in a single struct request (swap IO request),
    MAX_SGL_LEN */
-#define USER_MAX_PAGE_NUM 1
+#undef USER_MAX_PAGE_NUM
 
 /* the max remote memory size from one server (MAX_MR_SIZE_GB), default is 32
    */
-#define USER_MAX_REMOTE_MEMORY 32
+#undef USER_MAX_REMOTE_MEMORY
 
 /* the number of queried server in looking for remote memory
    (SERVER_SELECT_NUM), default is 1 */
-#define USER_NUM_SERVER_SELECT 1
+#undef USER_NUM_SERVER_SELECT
 
 /* the name of stackbd disk */
-#define USER_STACKBD_NAME "stackbd"
+#undef USER_STACKBD_NAME
 
 /* stackbd (backup) disk size */
-#define USER_STACKBD_SIZE 12
+#undef USER_STACKBD_SIZE
