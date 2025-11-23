@@ -1,0 +1,1 @@
+memcslap: unrecognized option '--value-size=4096'

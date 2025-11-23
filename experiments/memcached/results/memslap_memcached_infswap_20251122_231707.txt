@@ -1,0 +1,3 @@
+No command 'memslap' found, did you mean:
+ Command 'memcslap' from package 'libmemcached-tools' (main)
+memslap: command not found
