@@ -68,9 +68,6 @@ int main(int argc, char *argv[])
     // Keep process alive so memory stays allocated and hot
     printf("Sleeping to keep data resident...\n");
     fflush(stdout);
-    for (;;) {
-        sleep(60);
-    }
 
     // Not reached, but for completeness:
     free(value);
