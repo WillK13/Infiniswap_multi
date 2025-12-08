@@ -1,0 +1,12 @@
+Hog: server=127.0.0.1 port=11211 nkeys=200000 valsize=32768
+Hog progress: 10000 / 200000 keys
+Hog progress: 20000 / 200000 keys
+Hog progress: 30000 / 200000 keys
+Hog progress: 40000 / 200000 keys
+Hog progress: 50000 / 200000 keys
+Hog progress: 60000 / 200000 keys
+Hog progress: 70000 / 200000 keys
+Hog progress: 80000 / 200000 keys
+Hog progress: 90000 / 200000 keys
+Hog progress: 100000 / 200000 keys
+Hog progress: 110000 / 200000 keys
