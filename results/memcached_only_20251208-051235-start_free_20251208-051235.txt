@@ -1,0 +1,5 @@
+              total        used        free      shared  buff/cache   available
+Mem:           3951          53        2799           5        1097        3638
+Swap:         12287           0       12287
+Filename				Type		Size	Used	Priority
+/dev/infiniswap0                       	partition	12582908	0	-1
